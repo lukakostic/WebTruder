@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://wexond.net"><img src="static/app-icons/icon.png" width="256"></a>
-  # [Based on the Wexond browser](https://github.com/wexond/wexond)
+  [Based on the Wexond browser](https://github.com/wexond/wexond)
 </p>
 
 <div align="center">
