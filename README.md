@@ -3,12 +3,8 @@
 </p>
 
 <div align="center">
-  <h1>Wexond</h1>
+  <h1>WebTruder</h1>
 
-[![Travis](https://img.shields.io/travis/com/wexond/wexond.svg?style=flat-square)](https://travis-ci.com/wexond/wexond)
-[![AppVeyor](https://img.shields.io/appveyor/ci/sentialx/wexond.svg?style=flat-square)](https://ci.appveyor.com/project/sentialx/wexond)
-[![Discord](https://img.shields.io/discord/307605794680209409.svg?style=flat-square)](https://discord.gg/yAA8DdK)
-[![Downloads](https://img.shields.io/github/downloads/wexond/wexond/total.svg?style=flat-square)](https://github.com/wexond/wexond/releases)
 
 Wexond is an extensible and privacy-focused web browser with a totally different user experience, built on top of `Electron`, `TypeScript`, `React` and `styled-components`. It aims to be fast, private, beautiful, extensible and functional.
 
@@ -39,8 +35,6 @@ Wexond is an extensible and privacy-focused web browser with a totally different
 ![](https://wexond.net/img/screen.png)
 
 ![](https://wexond.net/img/screen2.gif)
-
-# [Roadmap](https://github.com/wexond/wexond/projects)
 
 # [Supported Chrome APIs](https://github.com/wexond/wexond/issues/110)
 
@@ -87,19 +81,3 @@ $ npm run <command>
 | `start`            | Starts Wexond.                              |
 | `dev`              | Starts Wexond in the development mode       |
 
-# Documentation
-
-> At this moment there are no docs, however this may change in the future, see ([#147](https://github.com/wexond/wexond/issues/147)).
-
-Guides and the API reference are located in [`docs`](docs).
-It also contains documents describing how to use the browser, and create themes.
-
-# Authors
-
-[@sentialx](https://github.com/sentialx)
-
-[@xnerhu](https://github.com/xnerhu)
-
-<a href="https://www.patreon.com/bePatron?u=12270966">
-    <img src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" width="160">
-</a>
