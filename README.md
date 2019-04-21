@@ -1,10 +1,10 @@
 <p align="center">
-  <a href="https://wexond.net"><img src="static/app-icons/icon.png" width="256"></a>
-  [Based on the Wexond browser](https://github.com/wexond/wexond)
+  <a href="https://github.com/wexond/wexond"><img src="static/app-icons/icon.png" width="256"></a>
 </p>
 
 <div align="center">
   <h1>WebTruder</h1>
+  <h5>Based on the Wexond browser<h5>
 
 
 Wexond is an extensible and privacy-focused web browser with a totally different user experience, built on top of `Electron`, `TypeScript`, `React` and `styled-components`. It aims to be fast, private, beautiful, extensible and functional.
