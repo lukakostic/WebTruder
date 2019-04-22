@@ -26,13 +26,6 @@
       "email": "xnerhu@gmail.com"
     }
   ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/wexond/wexond.git"
-  },
-  "bugs": {
-    "url": "https://github.com/wexond/wexond/issues"
-  },
   "scripts": {
     "dev": "cross-env NODE_ENV='dev' node fuse.js",
     "build": "node fuse.js",
@@ -60,7 +53,7 @@
     "@types/styled-components": "4.1.14",
     "concurrently": "4.1.0",
     "cross-env": "5.2.0",
-    "electron": "4.1.4",
+    "electron": "^4.1.4",
     "electron-builder": "20.39.0",
     "fuse-box": "3.7.1",
     "log-update": "3.2.0",
@@ -74,12 +67,12 @@
   },
   "dependencies": {
     "@cliqz/adblocker": "0.8.0",
+    "axios": "0.18.0",
     "electron-updater": "4.0.6",
-    "extract-file-icon": "0.1.4",
+    "extract-file-icon": "^0.1.4",
     "file-type": "10.11.0",
     "gsap": "2.1.2",
     "icojs": "0.12.3",
-    "axios": "0.18.0",
     "leveldown": "5.0.1",
     "levelup": "4.0.1",
     "mobx": "5.9.4",

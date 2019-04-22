@@ -2,12 +2,12 @@
   "appId": "org.wexond.wexond",
   "productName": "Wexond",
   "asar": true,
+  "publish": null,
   "directories": {
     "output": "dist",
     "buildResources": "static/app-icons"
   },
   "files": ["build/**/*", "package.json", "filters"],
-  "publish": "github",
   "linux": {
     "category": "Network",
     "target": [
