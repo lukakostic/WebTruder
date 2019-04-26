@@ -5,6 +5,7 @@ import { getAPI } from '~/shared/utils/extensions';
 import { format, parse } from 'url';
 import { IpcExtension } from '~/shared/models';
 import { runInThisContext } from 'vm';
+import console = require('console');
 
 webFrame.registerURLSchemeAsPrivileged('wexond-extension');
 
@@ -23,6 +24,7 @@ webFrame.executeJavaScript('window', false, w => {
     },
   };
 });
+
 
 const tabId = parseInt(
   process.argv.find(x => x.startsWith('--tab-id=')).split('=')[1],
@@ -174,7 +176,10 @@ const runStylesheet = (url: string, code: string) => {
 };
 
 const injectContentScript = (script: any, extension: IpcExtension) => {
-  if (
+
+  if(script.matches == '*')
+  console.log('');
+  else if (
     !script.matches.some((x: string) =>
       matchesPattern(
         x,
@@ -267,4 +272,7 @@ process.once('loaded', () => {
       }
     }
   });
+
+          //injectContentScript({matches: "*",js: [`alert('ass');`],css: 0,runAt: 'ass'}, extensions[Object.keys(extensions)[1]]);
+          
 });

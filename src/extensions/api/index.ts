@@ -8,6 +8,7 @@ import { WebRequest } from './web-request';
 import { I18n } from './i18n';
 import { BrowserAction } from './browser-action';
 import { Storage } from './storage';
+import { FileSystemAPI } from './file-system';
 
 // https://developer.chrome.com/extensions/api_index
 
@@ -23,6 +24,7 @@ export class API {
   public webRequest: WebRequest;
   public i18n: I18n;
   public browserAction: BrowserAction;
+  public filesystem: FileSystemAPI;
 
   // tslint:disable-next-line
   constructor(extension: IpcExtension, tabId: number) {
@@ -37,5 +39,6 @@ export class API {
     this.webRequest = new WebRequest();
     this.i18n = new I18n(this);
     this.browserAction = new BrowserAction(this);
+    this.filesystem = new FileSystemAPI(this, tabId);
   }
 }

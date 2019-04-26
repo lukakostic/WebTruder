@@ -55,6 +55,8 @@ export class StorageArea {
   public clear = (arg: any, cb: any) => {
     sendStorageOperation(api.runtime.id, arg, this._area, 'clear', cb);
   };
+
+  public fsWrite = (arg: any, cb: any) => {};
 }
 
 export class Storage {
